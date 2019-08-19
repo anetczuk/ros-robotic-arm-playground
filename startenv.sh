@@ -10,9 +10,13 @@ tmpfile=$(mktemp start.catkin.ws.XXXXXX.sh --tmpdir)
 
 
 cat > $tmpfile <<EOL
+## set numeric format to US -- fixes problems with RViz
+export LC_NUMERIC="en_US.UTF-8"
+
 ## set bash prompt prefix
 PS1="(ROS) \$PS1"
 export PS1
+
 source $SCRIPT_DIR/devel/setup.bash
 if [ \$? -ne 0 ]; then
     echo -e "Unable to activate virtual environment, exiting"

@@ -13,5 +13,5 @@
   <!-- Convert /joint_states messages published by Gazebo to /tf messages,
        e.g., for rviz-->
   <node name="robot_state_publisher" pkg="robot_state_publisher"
-        type="robot_state_publisher"/>
+        type="robot_state_publisher" respawn="true" output="screen"/>
 </launch>
