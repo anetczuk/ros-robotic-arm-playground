@@ -1,6 +1,6 @@
 # Robotic arm playground
 
-This is environment for robotic arm. It consists of simulation model and examples of control algorithms provided *MoveIt* platform.
+This is environment for robotic arm. It consists of simulation model and examples of control algorithms provided by *MoveIt* platform.
 
 
 ## How to build:
@@ -19,7 +19,7 @@ Code of the bot was taken from ["Programming Robots with ROS"](#ref02).
 ### Screens
 
 [![CougarBot in Gazebo](doc/screens/cougarbot-gazebo-small.png "CougarBot in Gazebo")](doc/screens/cougarbot-gazebo.png)
-[![CougarBot in RViz](doc/screens/cougarbot-rviz.png "CougarBot in RViz")](doc/screens/cougarbot-rviz.png)
+[![CougarBot in RViz](doc/screens/cougarbot-rviz-small.png "CougarBot in RViz")](doc/screens/cougarbot-rviz.png)
 
 1. CougarBot viewed in Gazebo
 2. CougarBot viewed in RViz
