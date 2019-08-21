@@ -1,6 +1,7 @@
 # Robotic arm playground
 
-This is environment for robotic arm. It consists of simulation model and examples of control algorithms provided by *MoveIt* platform.
+This is environment for robotic arm. It consists of simulation models and examples of control algorithms provided by *MoveIt* platform.
+It contains two models: *CougarBot* and *Panda*.
 
 
 ## How to build:
@@ -36,6 +37,24 @@ To run the environment execute:
 As an alternative, whole environment can be run at once by executing ```roslaunch cougarbot_moveit_config all.launch```
 
 
+## Panda
+
+Panda is 7-DOF robotic arm. It's part of *MoveIt* environment.
+
+
+### Screens
+
+[![Panda in RViz](doc/screens/panda-rviz-small.png "Panda in RViz")](doc/screens/panda-rviz.png)
+
+Panda viewed in RViz.
+
+
+### How to run:
+
+To start Panda simulation first open new terminal and start virtual environment by calling *startenv.sh*.
+Then execute *./src/panda_moveit_config/start_demo.sh*.
+
+
 ## Requirements
 
 Environemnt was tested with following dependencies:
@@ -48,7 +67,8 @@ Environemnt was tested with following dependencies:
 ## Issues:
 
 Following issues can occur:
-- missing joint trajectory controller -- install package: ```ros-melodic-joint-trajectory-controller``` 
+- missing joint trajectory controller -- install package: ```ros-melodic-joint-trajectory-controller```
+- missing franka controller -- install package: ```ros-melodic-franka-control``` 
 - RViz does not allow to change arm's state -- change command line environment locale variable by ```export LC_NUMERIC="en_US.UTF-8"```
 - RViz allows to change arm's state only in one dimmension -- activate *MotionPlanning* option *Allow Approx IK Solutions*. It occurs because of 1-DOF wirst.
 
@@ -58,4 +78,8 @@ Following issues can occur:
 <a name="ref01">[1]</a>: *CougarBot* [repository](https://github.com/osrf/rosbook)
 
 <a name="ref02">[2]</a>: "Programming Robots with ROS" by Morgan Quigley, Brian Gerkey and William D. Smart, ISBN: 978-1-449-32389-9
+
+<a name="ref03">[3]</a>: *Panda* [repository](https://github.com/ros-planning/panda_moveit_config)
+
+[4]: *MoveIt* environment: [https://moveit.ros.org/](https://moveit.ros.org/)
 
