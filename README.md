@@ -39,7 +39,7 @@ As an alternative, whole environment can be run at once by executing ```roslaunc
 
 ## Panda
 
-Panda is 7-DOF robotic arm. It's part of *MoveIt* environment.
+Panda is 7-DOF robotic arm. It's part of *MoveIt* environment and has been taken from [repository](#ref03).
 
 
 ### Screens
