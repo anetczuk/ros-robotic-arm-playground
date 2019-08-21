@@ -13,8 +13,8 @@ To build/rebuild packages after making changes execute *make.sh*
 
 ## CougarBot
 
-[*CougarBot*](#ref01) consists of four joints: hip, shoulder, elbow and wrist. It can bend three joints and rotate around base.
-Code of the bot was taken from ["Programming Robots with ROS"](#ref02).
+*CougarBot* consists of four joints: hip, shoulder, elbow and wrist. It can bend three joints and rotate around base.
+Code of the bot was taken from ["Programming Robots with ROS" [2]](#ref02) and is available in [reopsitory [1]](#ref01).
 
 
 ### Screens
@@ -39,7 +39,7 @@ As an alternative, whole environment can be run at once by executing ```roslaunc
 
 ## Panda
 
-Panda is 7-DOF robotic arm. It's part of *MoveIt* environment and has been taken from [repository](#ref03).
+Panda is 7-DOF robotic arm. It's part of *MoveIt* environment and has been taken from [repository [3]](#ref03).
 
 
 ### Screens
